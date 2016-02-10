@@ -7,9 +7,31 @@ Welcome Page
 {% block body %}
     <h1>Welcome</h1>
 
- <form action="/twitter" method="get">
+ <form action="/" method="get">
   Twitter Username: <input type="text" name="username"><br>
   <input type="submit" value="Submit">
 </form> 
+
+<br/><br/><br/><br/><br/>
+  
+
+
+{% if content %}
+
+<h1>Tweets</h1>
+
+<br/>
+
+{% for tweet  in content %}
+
+ <p>  {{ tweet }}       </p>
+
+       <br/>
+
+		   
+
+         {% endfor %}
+
+ {% endif %}
     
 {% endblock %}
