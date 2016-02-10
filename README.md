@@ -8,7 +8,7 @@ Needed Libraries
 
 Django
 
-$ pip install django
+$ pip install djangow
 
 requests
 
