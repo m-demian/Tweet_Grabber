@@ -6,20 +6,20 @@ if Username not sent properly message will be prompted
 
 Needed Libraries
 
-Django
+## Django
 
-'''
+```
 $ pip install django
-'''
+```
 
-requests
+## requests
 
-'''
+```
 $ pip install requests
-'''
+```
 
-Beautiful Soup
+## Beautiful Soup
 
-'''
+```
 $ pip install BeautifulSoup4
-'''
+```
