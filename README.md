@@ -8,13 +8,18 @@ Needed Libraries
 
 Django
 
-$ pip install djangow
+'''
+$ pip install django
+'''
 
 requests
 
+'''
 $ pip install requests
+'''
 
 Beautiful Soup
 
+'''
 $ pip install BeautifulSoup4
-
+'''
