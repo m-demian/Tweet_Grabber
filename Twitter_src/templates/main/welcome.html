@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Welcome Page
+{% endblock %}
+
+{% block body %}
+    <h1>Welcome</h1>
+
+ <form action="/twitter" method="get">
+  Twitter Username: <input type="text" name="username"><br>
+  <input type="submit" value="Submit">
+</form> 
+    
+{% endblock %}

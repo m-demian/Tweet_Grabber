@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Twitter Feed
+{% endblock %}
+
+{% block body %}
+    <h1>Tweets</h1>
+
+
+{% if content %}
+
+{% for tweet  in content %}
+
+ <p>  {{ tweet }}       </p>
+
+       <br/>
+
+		   
+
+         {% endfor %}
+
+ {% endif %}
+    
+{% endblock %}
